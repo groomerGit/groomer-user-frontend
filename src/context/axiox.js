@@ -1,8 +1,8 @@
 const isLocal = false;
 
-const Context = isLocal ? "https://groomer-bd.onrender.com" : "https://groomer-bd.onrender.com";
+const Context = isLocal ? "http://localhost:8000" : "https://api.groomer.today/api/";
 
 export default Context;
 // http://localhost:8000
 
-// https://groomer.today/api
+// https://api.groomer.today/api/
